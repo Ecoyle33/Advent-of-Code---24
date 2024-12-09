@@ -1,5 +1,6 @@
-#Create two lists, each list contains one column from input.txt
+import numpy as np
 
+#Create two lists, each list contains one column from input.txt
 list1 = []
 list2 = []
 

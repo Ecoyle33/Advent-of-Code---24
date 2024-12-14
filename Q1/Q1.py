@@ -2,7 +2,7 @@
 list1 = []
 list2 = []
 
-with open('input.txt', 'r') as f:
+with open('Q1\input.txt', 'r') as f:
     
     for line in f:
         entry1, entry2 = line.strip().split()

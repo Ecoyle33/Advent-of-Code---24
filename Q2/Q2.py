@@ -1,6 +1,6 @@
 inputList = []
 
-with open('input.txt', 'r') as f:
+with open('Q2\input.txt', 'r') as f:
     
     for line in f:
         

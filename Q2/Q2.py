@@ -1,3 +1,5 @@
+import numpy as np
+
 inputList = []
 
 with open('Q2\input.txt', 'r') as f:
@@ -11,6 +13,8 @@ with open('Q2\input.txt', 'r') as f:
 numSafeLists = 0
 
 for array in inputList:
+
+    # Check if the lists elements are all increasing or decreasing
     
     for i in range(len(array) - 1):
         

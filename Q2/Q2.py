@@ -71,10 +71,20 @@ for array in list1:
 
 # Unsafe increasing lists
 
-# for array in unsafe_increasing_lists:
+for i in range(len(unsafe_increasing_diff)):
 
-#     for i in range(len(array)):
+    array = unsafe_increasing_diff[i]
+    count = 0
 
+    for j in range(len(array)):
+
+        if array[j] <= 0:
+            count += 1
+
+            if count == 2:
+                unsafe_increasing_lists.pop(i)
+
+print(unsafe_increasing_lists)
 
 # abs_diff always has one less element than its corresponding array
 # Find index of unsafe element, add one, remove the element with that value
